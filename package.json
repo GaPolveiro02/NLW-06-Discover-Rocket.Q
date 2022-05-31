@@ -1,0 +1,30 @@
+{
+  "name": "RocketQ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "init-db": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaPolveiro02/NLW-06-Discover-Rocket.Q.git"
+  },
+  "keywords": [],
+  "author": "Gabriel Polveiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaPolveiro02/NLW-06-Discover-Rocket.Q/issues"
+  },
+  "homepage": "https://github.com/GaPolveiro02/NLW-06-Discover-Rocket.Q#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
